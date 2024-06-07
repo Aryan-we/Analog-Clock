@@ -137,8 +137,6 @@ body{
     display: flex;
     justify-content: center;
     
-
-
 }
 .clock::before{
     content: '';
@@ -161,7 +159,7 @@ body{
 .minute::before{
     position: absolute;
     content: '';
-    width:4px;
+    width: 3px;
     height: 70px;
     background-color: black;
     z-index: 11;
@@ -171,7 +169,7 @@ body{
     position: absolute;
     content: '';
     width:2px;
-    height: 95px;
+    height: 110px;
     background-color: black;
     z-index: 12;
     border-radius: 50%;
